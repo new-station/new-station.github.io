@@ -2,3 +2,48 @@
 .new-station-btn {
     font-weight: 700;
 }
+
+.main-header-container {
+    width: 100%;
+    height: calc(100vh - var(--nav-height));
+    min-height: 20rem;
+    max-height: 50rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #647a7b;
+    color: white;
+}
+
+.header-container {
+    display: none;
+}
+
+.header-container-mobile {
+    display: initial;
+    text-align: center;
+    font-size: 3.5vw; 
+}
+
+.sec-line {
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 428.57px) {
+    .header-container-mobile { 
+        font-size: inherit;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    
+    .header-container {
+        display: initial;
+    }
+
+    .header-container-mobile {
+        display: none;
+    }
+    
+}
