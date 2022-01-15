@@ -19,6 +19,7 @@ html {
     font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: var(--default-fg-color);
 }
 
 body {
@@ -35,7 +36,6 @@ header {
     align-items: center;
 
     font-size: 1.5rem;
-    color: var(--default-fg-color);
     background-color: var(--default-bg-color);
 
     box-shadow: -5px 5px 40px 0 rgba(0, 0, 0, 0.2);

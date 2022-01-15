@@ -30,6 +30,35 @@
     margin-left: 1rem;
 }
 
+.main-content-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 3rem 2.5rem;
+}
+
+.main-content-container h2, .main-content-container h3 {
+    text-align: center;
+    font-weight: 400;
+
+    margin: 1rem 0;
+}
+
+.content-with-icon {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.content-with-icon img {
+    width: 70%;
+    height: 70%;
+    max-width: 15rem;
+    max-height: 15rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 428.57px) {
     .header-container-mobile { 
         font-size: inherit;
@@ -44,6 +73,22 @@
 
     .header-container-mobile {
         display: none;
+    }
+
+    .main-content-container {
+        margin: 4rem;
+    }
+
+    .content-with-icon {
+        flex-flow: row;
+        font-size: 1.2rem;
+    }
+
+    .content-with-icon img {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 0;
+        margin-right: 2rem;
     }
     
 }
